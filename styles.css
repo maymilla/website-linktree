@@ -30,35 +30,31 @@ footer {
     width: 100%;
 }
 
-button {
-    background-color: #cee2ee; 
-    border: rgb(31, 35, 92);
-    color: rgb(31, 35, 92);
-    padding: 20px 30px;
-    margin-bottom: 15px;
-    text-align: center;
-    
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px;
-    width: 500px;
+.link-container {
+    margin-top: 20px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-button:hover {
-    background-color: rgb(31, 35, 92); 
-    color: white;
-  }
+.link {
+    margin: 10px;
+}
 
-.pfp {
+.link a {
     display: block;
-    margin-left: auto;
-    margin-left: auto;
-    margin-top: 10%;
-    height: auto;
-    max-width: 200px;
-    border-radius: 50%;
+    padding: 10px;
+    background-color: #a8cadd;
+    text-decoration: none;
+    color: #130a31;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
+.link a:hover {
+    background-color: #132553;
+    color: #ddd;
+}
 
 }
