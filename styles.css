@@ -1,0 +1,64 @@
+
+body {
+    font-family:'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+
+header {
+    background-color: #333;
+    color: #133156;
+    padding: 10px;
+    text-align: center;
+    background-image: url("painting bg.jpg");
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+    color: #191542;
+}
+
+footer {
+    background-color: #f0f0f0;
+    color: #191542;
+    padding: 1px;
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #cee2ee; 
+    border: rgb(31, 35, 92);
+    color: rgb(31, 35, 92);
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    width: 500px;
+}
+
+button:hover {
+    background-color: rgb(31, 35, 92); 
+    color: white;
+  }
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+
+}
